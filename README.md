@@ -16,3 +16,9 @@ Containerizing Node.js application using Docker
 ## Run Container
 
     docker run -d -p 8000:8000 --name rest-server node-docker
+
+## Compose Commands
+
+    docker-compose up -d
+
+    docker-compose down
