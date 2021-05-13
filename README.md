@@ -12,3 +12,7 @@ Containerizing Node.js application using Docker
 ## Build Image
 
     docker build --tag node-docker .
+
+## Run Container
+
+    docker run -d -p 8000:8000 --name rest-server node-docker
