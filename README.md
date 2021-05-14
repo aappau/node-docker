@@ -1,7 +1,5 @@
 # Containerize Node.js Applications
 
-## Objectives:
-
 -   Create a simple Node.js application
 -   Create a new Dockerfile which cintains instructions required to build a Nod.js image
 -   Run the newly built image as a container
@@ -11,14 +9,16 @@
 
 ## Build Image
 
-    docker build --tag node-docker .
+    npm run build-image
 
-## Run Container
+## Start Development Environment
 
-    docker run -d -p 8000:8000 --name rest-server node-docker
+    npm run up
 
-## Compose Commands
+## Shut Down Development Environment
 
-    docker-compose up -d
+    npm run down
 
-    docker-compose down
+## Run Test
+
+    npm run test
