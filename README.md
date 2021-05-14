@@ -1,4 +1,4 @@
-# Containerize Node.js Applications
+# Containerize Node.js Applications [![CI to Docker Hub](https://github.com/aappau/node-docker/actions/workflows/main.yml/badge.svg)](https://github.com/aappau/node-docker/actions/workflows/main.yml)
 
 -   Create a simple Node.js application
 -   Create a new Dockerfile which cintains instructions required to build a Nod.js image
